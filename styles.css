@@ -271,3 +271,24 @@ main {
     order: -1;
   }
 }
+/* --- Google Sites / iframe: уменьшаем "поля" и подгоняем ширину --- */
+.hero,
+main {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* На больших экранах можно чуть больше, но без огромных полей */
+@media (min-width: 900px) {
+  .hero,
+  main {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+/* На всякий случай: чтобы ничего не вылезало горизонтально */
+html, body {
+  width: 100%;
+  overflow-x: hidde
+}
