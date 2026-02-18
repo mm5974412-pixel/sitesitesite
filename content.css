@@ -186,6 +186,20 @@ main {
   background: #faf6ef;
 }
 
+.photo--image {
+  border-style: solid;
+  padding: 0.75rem;
+  background: #ffffff;
+}
+
+.photo--image img {
+  width: 100%;
+  max-width: 860px;
+  height: auto;
+  border-radius: 1rem;
+  display: block;
+}
+
 .essay {
   background: var(--card);
   padding: 1.8rem;
