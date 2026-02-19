@@ -226,6 +226,25 @@ main {
   background: #faf6ef;
 }
 
+.photo-collage {
+  border: none;
+  padding: 0;
+  background: transparent;
+  min-height: auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.photo-collage img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 0.6rem;
+  display: block;
+  box-shadow: 0 10px 24px rgba(20, 20, 20, 0.12);
+}
+
 .photo--image {
   border: none;
   padding: 0;
@@ -285,6 +304,10 @@ main {
 
   .hero__logo {
     order: -1;
+  }
+
+  .photo-collage {
+    grid-template-columns: 1fr;
   }
 }
 /* --- Google Sites / iframe: уменьшаем "поля" и подгоняем ширину --- */
