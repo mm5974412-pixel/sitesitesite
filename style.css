@@ -236,7 +236,7 @@ main {
 
 .photo--image img {
   width: 100%;
-  max-width: 100%;
+  max-width: 560px;
   height: auto;
   border-radius: 0;
   display: block;
