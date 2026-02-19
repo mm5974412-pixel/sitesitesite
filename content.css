@@ -187,16 +187,16 @@ main {
 }
 
 .photo--image {
-  border-style: solid;
-  padding: 0.75rem;
-  background: #ffffff;
+  border: none;
+  padding: 0;
+  background: transparent;
 }
 
 .photo--image img {
   width: 100%;
-  max-width: 560px;
+  max-width: 100%;
   height: auto;
-  border-radius: 1rem;
+  border-radius: 0;
   display: block;
 }
 
