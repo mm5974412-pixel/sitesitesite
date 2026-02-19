@@ -190,11 +190,13 @@ main {
   border: none;
   padding: 0;
   background: transparent;
+  min-height: auto;
+  place-items: stretch;
 }
 
 .photo--image img {
   width: 100%;
-  max-width: 100%;
+  max-width: none;
   height: auto;
   border-radius: 0;
   display: block;
