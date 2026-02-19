@@ -194,7 +194,7 @@ main {
 
 .photo--image img {
   width: 100%;
-  max-width: 860px;
+  max-width: 560px;
   height: auto;
   border-radius: 1rem;
   display: block;
