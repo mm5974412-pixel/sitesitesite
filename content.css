@@ -191,12 +191,12 @@ main {
   padding: 0;
   background: transparent;
   min-height: auto;
-  place-items: stretch;
+  place-items: center;
 }
 
 .photo--image img {
   width: 100%;
-  max-width: none;
+  max-width: 560px;
   height: auto;
   border-radius: 0;
   display: block;
