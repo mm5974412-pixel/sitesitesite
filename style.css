@@ -233,6 +233,8 @@ main {
   min-height: auto;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.9rem;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .photo-collage img {
@@ -329,5 +331,5 @@ main {
 /* На всякий случай: чтобы ничего не вылезало горизонтально */
 html, body {
   width: 100%;
-  overflow-x: hidde
+  overflow-x: hidden
 }
