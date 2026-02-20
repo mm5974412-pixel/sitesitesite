@@ -325,7 +325,8 @@ main {
   }
 }
 
-@media (max-width: 900px) {
+/* Google Sites / iframe: адаптация для средних экранов */
+@media (max-width: 1000px) {
   .hero {
     grid-template-columns: 1fr;
   }
@@ -333,8 +334,14 @@ main {
   .hero__logo {
     order: -1;
   }
+}
 
+@media (max-width: 900px) {
   .photo-collage {
+    grid-template-columns: 1fr;
+  }
+  
+  .cards {
     grid-template-columns: 1fr;
   }
 }
